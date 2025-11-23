@@ -31,3 +31,7 @@
   --text-md: 400 16px/140% var(--font-family);
   --text-sm: 400 14px/140% var(--font-family);
 }
+
+body {
+  color: var(--color-gray-200);
+}
