@@ -29,6 +29,24 @@
       .avatar {
         width: 112px;
         height: 112px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        img:last-child {
+          height: 96px;
+          width: 96px;
+        }
+        img:first-child {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          height: 32px;
+          width: 32px;
+          margin-bottom: 4px;
+          margin-right: 4px;
+        }
       }
 
       .title {
