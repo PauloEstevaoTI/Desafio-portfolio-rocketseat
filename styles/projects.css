@@ -38,6 +38,11 @@
       gap: 20px;
       display: flex;
       flex-direction: column;
+      border: 1px solid transparent;
+    }
+
+    .project-card:hover {
+      border: 1px solid var(--color-gray-300);
     }
 
     img {
