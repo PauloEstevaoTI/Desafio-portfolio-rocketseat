@@ -1,0 +1,64 @@
+#services {
+  height: 480px;
+  background-color: var(--color-gray-600);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .container-services {
+    width: 1366px;
+    padding-inline: 120px;
+    padding-top: 88px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 56px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    text-align: center;
+    strong {
+      font: var(--subtitle);
+      color: var(--color-red);
+    }
+    h2 {
+      margin-top: 8px;
+      font: var(--title-md);
+      color: var(--color-gray-100);
+    }
+  }
+
+  .services-cards {
+    width: 888px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    .service-card {
+      width: 280px;
+      height: 155px;
+      border-radius: 12px;
+      border: 1px solid var(--color-gray-500);
+      padding: 20px;
+
+      .description {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        h3 {
+          font: var(--title-sm);
+          color: var(--color-gray-100);
+        }
+
+        p {
+          font: var(--text-sm);
+          color: var(--color-gray-200);
+        }
+      }
+    }
+  }
+}
