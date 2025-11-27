@@ -60,14 +60,6 @@
             color: var(--color-red);
           }
         }
-        h1 {
-          font: var(--title-lg);
-          color: var(--color-gray-100);
-        }
-      }
-      p {
-        font: var(--text-sm);
-        color: var(--color-gray-300);
       }
     }
 
