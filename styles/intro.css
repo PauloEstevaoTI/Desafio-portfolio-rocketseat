@@ -37,6 +37,8 @@
         img:last-child {
           height: 96px;
           width: 96px;
+          border-radius: 50%;
+          border: 3px solid var(--color-red);
         }
         img:first-child {
           position: absolute;
