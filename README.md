@@ -34,6 +34,20 @@ Este é um site de portfólio completo que apresenta:
 └── index.html          # Página principal
 ```
 
+## 📸 Preview do Projeto
+
+### Seção Introdução
+![Seção Introdução](./screenshots/profile.png)
+
+### Seção Projetos
+![Seção Projetos](./screenshots/galeria.png)
+
+### Seção Serviços
+![Seção Serviços](./screenshots/servicos.png)
+
+### Seção Contato
+![Seção Contato](./screenshots/contato.png)
+
 ## 🎨 Seções
 
 ### 1. Introdução
